@@ -1,0 +1,50 @@
+*{
+	margin:0;
+	padding:0;
+}
+div.container{
+	width:1366px;
+	min-height:663px;
+}
+
+div.first{
+	width:227px;
+	min-height:663px;
+	background-color:red;
+	float:left;
+}
+
+div.second{
+	width:227px;
+	min-height:663px;
+	background-color:orange;
+	float:left;
+}
+
+div.third{
+	width:227px;
+	min-height:663px;
+	background-color:yellow;
+	float:left;
+}
+
+div.forth{
+	width:227px;
+	min-height:663px;
+	background-color:green;	
+	float:left;	
+}
+
+div.fifth{
+	width:227px;
+	min-height:663px;
+	background-color:turquoise;	
+	float:left;
+}
+
+div.sixth{
+	width:227px;
+	min-height:663px;
+	background-color:Blue;
+	float:left;	
+}
