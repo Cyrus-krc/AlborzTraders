@@ -1,9 +1,9 @@
 $(function(){
 	var winWidth    = $(window).width()
-	var slidesWidth = Math.ceil(winWidth/5);
+	var slidesWidth = Math.ceil(winWidth/6);
 
 
-	slides = $('div.container > div');
+	slides = $('div.container > div.cont > div');
 	slides.css({width:slidesWidth+'px'});
 	slides.last().css({'padding-right':'300px'});
 	//$('div.slideshow div.train > div:last-child').css({'padding-right':'200px'});
