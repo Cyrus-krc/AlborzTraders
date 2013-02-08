@@ -75,6 +75,16 @@ div.subdevision div.train div.third {
 	min-height       : 663px;
 	background-color : yellow;
 	float            : left;
+	background-image:url('images/slides/3.jpg');
+	background-position:70% 0%;
+}
+
+div.subdevision div.train div.third h3.sub-title{
+	width:150px;
+	height:60px;
+	background-image:url('images/logo/3.png');
+	background-color:transparent;
+	background-position:10% 0%;
 }
 
 div.subdevision div.train div.forth {
