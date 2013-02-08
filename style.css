@@ -1,59 +1,63 @@
-*{
-	margin:0;
-	padding:0;
+.clear{
+	clear      : both;
+	overflow   : hidden;
+	width      : 0 !important;
+	height     : 0 !important;
+	min-height : 0 !important;
+	min-width  : 0 !important;
+	border     : 0 none !important;
+	float      : none !important;
 }
+
 div.container{
-	width:1366px;
+	width     :1366px;
 	min-height:663px;
 }
 
-div.cont{
-	
+/***************************  FRONT PAGE  *********************************/
+
+div.subdevision {
+	width   : 100%;
+	overflow: hidden;
 }
 
-div.first{
-	min-height:663px;
-	background-color:red;
-	float:left;
+div.subdevision div.train {
+	width : 6000px;
 }
 
-div.second{
-	min-height:663px;
-	background-color:orange;
-	float:left;
+div.subdevision div.train div.first {
+	min-height       : 663px;
+	background-color : red;
+	float            : left;
 }
 
-div.third{
-	min-height:663px;
-	background-color:yellow;
-	float:left;
+div.subdevision div.train div.second {
+	min-height       : 663px;
+	background-color : orange;
+	float            : left;
 }
 
-div.forth{
-	min-height:663px;
-	background-color:green;	
-	float:left;	
+div.subdevision div.train div.third {
+	min-height       : 663px;
+	background-color : yellow;
+	float            : left;
 }
 
-div.fifth{
-	min-height:663px;
-	background-color:turquoise;	
-	float:left;
+div.subdevision div.train div.forth {
+	min-height       : 663px;
+	background-color : green;	
+	float            : left;	
 }
 
-div.sixth{
-	min-height:663px;
-	background-color:Blue;
-	float:left;	
+div.subdevision div.train div.fifth {
+	min-height       : 663px;
+	background-color : turquoise;	
+	float            : left;
 }
 
-div.empty{
-	width:1px;
-	min-height:663px;
-	float:left;	
+div.subdevision div.train div.sixth {
+	min-height       : 663px;
+	background-color : blue;
+	float            : left;	
 }
 
-h1.seo{
-	text-indent:2000px;
-	overflow:hidden;	
-}
