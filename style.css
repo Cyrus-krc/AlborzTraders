@@ -45,6 +45,10 @@ div.subdevision div.train > div h3 {
 	top:60%;
 }
 
+div.subdevision div.train > div , h3{
+	background-repeat : no-repeat;	
+}
+
 div.subdevision div.train div.first {
 	min-height       : 663px;
 	background-color : red;
@@ -55,6 +59,16 @@ div.subdevision div.train div.second {
 	min-height       : 663px;
 	background-color : orange;
 	float            : left;
+	background-image:url('images/slides/2.jpg');
+	background-position:48% 10%;
+	background-size:cover;
+}
+
+div.subdevision div.train div.second h3.sub-title{
+	width:150px;
+	height:60px;
+	background-image:url('images/logo/2.png');
+	background-color:transparent;
 }
 
 div.subdevision div.train div.third {
