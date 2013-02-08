@@ -9,16 +9,26 @@
 	float      : none !important;
 }
 
-div.container{
-	width     :1366px;
-	min-height:663px;
+div.container {
+	position : relative;
+	top      : 0;
+	right    : 0;
+	left     : 0;
+	bottom   : 0;
 }
 
 /***************************  FRONT PAGE  *********************************/
+hgroup.site-title{
+	position: absolute;
+	top:100px;
+	background-color: magenta;
+	min-height: 80px;
+	width:120px;
+}
 
 div.subdevision {
-	width   : 100%;
-	overflow: hidden;
+	width    : 100%;
+	overflow : hidden;
 }
 
 div.subdevision div.train {
