@@ -125,6 +125,18 @@ div.subdevision div.train div.first div.backimg{
 	background-image:url('images/slides/1.jpg');
 	background-position:25% 40%;
 	background-size:cover;
+	opacity:1 !important;
+	display:block;
+	z-index:2;
+	transition:all 3s;
+}
+
+div.subdevision div.train div.first:hover div.backimg{
+	background-image:url('images/slides/01.jpg');
+	background-position:50%;
+	display:block;
+	z-index:3;
+	transition:all 3s;
 }
 
 div.subdevision div.train div.first h3.sub-title{
