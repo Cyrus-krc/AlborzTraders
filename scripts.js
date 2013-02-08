@@ -3,16 +3,15 @@ $(function(){
 	var slidesWidth = Math.ceil(winWidth/6);
 
 
-	slides = $('div.container > div.cont > div');
+	slides = $('div.subdevision div.train > div');
 	slides.css({width:slidesWidth+'px'});
-	slides.last().css({'padding-right':'300px'});
-	//$('div.slideshow div.train > div:last-child').css({'padding-right':'200px'});
+	slides.last().css({'padding-right':'500px'});
 
 	slides.mouseover(function(){
-		slides.animate({width:slidesWidth-50+'px'},500);
-		$(this).animate({width:slidesWidth+250+'px'},500);
+		slides.animate({width:slidesWidth-20+'px'},500);
+		$(this).animate({width:slidesWidth+120+'px'},500);
 	});
-	$('div.container').mouseout(function(){
+	$('div.subdevision').mouseout(function(){
 		slides.animate({width:slidesWidth+'px'},500);
 	});
 })
