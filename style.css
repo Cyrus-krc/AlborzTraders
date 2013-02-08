@@ -84,7 +84,7 @@ div.subdevision div.train > div h3 {
 	top:60%;
 }
 
-div.subdevision div.train > div , h3{
+div.subdevision div.train > div,div.subdevision div.train > div h3{
 	background-repeat : no-repeat;	
 }
 
@@ -95,6 +95,13 @@ div.subdevision div.train div.first {
 	background-image:url('images/slides/1.jpg');
 	background-position:25% 40%;
 	background-size:cover;
+}
+
+div.subdevision div.train div.first h3.sub-title{
+	width:150px;
+	height:90px;
+	background-image:url('images/logo/1.png');
+	background-position:0% 50%;
 }
 
 div.subdevision div.train div.second {
@@ -126,8 +133,7 @@ div.subdevision div.train div.third h3.sub-title{
 	width:150px;
 	height:60px;
 	background-image:url('images/logo/3.png');
-	background-color:transparent;
-	background-position:10% 0%;
+	background-position:10% 50%;
 }
 
 div.subdevision div.train div.forth {
@@ -139,6 +145,13 @@ div.subdevision div.train div.forth {
 	background-size:cover;
 }
 
+div.subdevision div.train div.forth h3.sub-title{
+	width:150px;
+	height:60px;
+	background-image:url('images/logo/4.png');
+	background-color:transparent;
+}
+
 div.subdevision div.train div.fifth {
 	min-height       : 663px;
 	background-color : turquoise;	
@@ -148,6 +161,13 @@ div.subdevision div.train div.fifth {
 	background-size:cover;
 }
 
+div.subdevision div.train div.fifth h3.sub-title{
+	width:150px;
+	height:60px;
+	background-image:url('images/logo/5.png');
+	background-color:transparent;
+}
+
 div.subdevision div.train div.sixth {
 	min-height       : 663px;
 	background-color : blue;
@@ -155,4 +175,11 @@ div.subdevision div.train div.sixth {
 	background-image:url('images/slides/6.jpg');
 	background-position:0% 0%;
 	background-size:cover;
+}
+
+div.subdevision div.train div.sixth h3.sub-title{
+	width:150px;
+	height:60px;
+	background-image:url('images/logo/6.png');
+	background-position:50% 30%;
 }
