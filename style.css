@@ -47,7 +47,7 @@ hgroup.site-title{
 	position: absolute;
 	top:50px;
 	background-color:rgba(0,0,0,.2);
-	min-height: 75px;
+	min-height: 95px;
 	width:165px;
 	z-index: 2;
 	border-radius:3px;
@@ -55,27 +55,28 @@ hgroup.site-title{
 }
 
 hgroup.site-title h2.alborz-logo{
-	width:70px;
+	width:132px;
 	height:70px;
-	background-image:url('images/logo/bulldozer-icon.png');	
+	background-image:url('images/logo/bulldozer_icon1.png');	
 	margin-left:8px;
+	background-repeat: no-repeat;
 }
 
 hgroup.site-title  h1.alborz{
 	position      : absolute;
-	font-size     : 20px;
+	font-size     : 15px;
 	font-family   : 'jura', Arial, sans-serif;
 	font-weight   : 200;
 	text-transform: capitalize;
 	text-indent   : 5px;
-	top           : 7px;
-	left          : 78px;
+	top           : 67px;
+	left          : 5px;
 	color: rgb(226,232,206);
 	letter-spacing: 1px;
 }
 hgroup.site-title  h1.alborz:first-letter,hgroup.site-title  h1.alborz span{
 	color: rgb(251,193,17);
-	font-size: 28px;
+	font-size: 20px;
 }
 
 div.subdevision {
