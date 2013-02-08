@@ -25,15 +25,8 @@ hgroup.site-title{
 	min-height: 80px;
 	width:120px;
 	z-index: 2;
-}
-
-hgroup.site-title h2.alborz-logo{
-	background-color:red;
-	border:1px solid white;
-}
-
-hgroup.site-title h1.alborz{
-	background-color:white;
+	border-radius:3px;
+	padding-top:3px;
 }
 
 div.subdevision {
@@ -123,6 +116,6 @@ div.subdevision div.train div.sixth {
 	background-color : blue;
 	float            : left;	
 	background-image:url('images/slides/6.jpg');
-	background-position:50% 0%;
+	background-position:0% 0%;
 	background-size:cover;
 }
