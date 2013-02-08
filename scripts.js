@@ -9,7 +9,7 @@ $(function(){
 
 	slides.mouseover(function(){
 		slides.animate({width:slidesWidth-20+'px'},500);
-		$(this).animate({width:slidesWidth+120+'px'},500);
+		$(this).animate({width:slidesWidth+160+'px'},500);
 	});
 	$('div.subdevision').mouseout(function(){
 		slides.animate({width:slidesWidth+'px'},500);

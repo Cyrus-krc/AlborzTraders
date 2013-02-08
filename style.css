@@ -21,10 +21,19 @@ div.container {
 hgroup.site-title{
 	position: absolute;
 	top:100px;
-	background-color: magenta;
+	background-color: black;
 	min-height: 80px;
 	width:120px;
 	z-index: 2;
+}
+
+hgroup.site-title h2.alborz-logo{
+	background-color:red;
+	border:1px solid white;
+}
+
+hgroup.site-title h1.alborz{
+	background-color:white;
 }
 
 div.subdevision {
@@ -53,6 +62,9 @@ div.subdevision div.train div.first {
 	min-height       : 663px;
 	background-color : red;
 	float            : left;
+	background-image:url('images/slides/1.jpg');
+	background-position:25% 40%;
+	background-size:cover;
 }
 
 div.subdevision div.train div.second {
@@ -77,6 +89,7 @@ div.subdevision div.train div.third {
 	float            : left;
 	background-image:url('images/slides/3.jpg');
 	background-position:70% 0%;
+	background-size:cover;
 }
 
 div.subdevision div.train div.third h3.sub-title{
@@ -91,17 +104,25 @@ div.subdevision div.train div.forth {
 	min-height       : 663px;
 	background-color : green;	
 	float            : left;	
+	background-image:url('images/slides/4.jpg');
+	background-position:35% 0%;
+	background-size:cover;
 }
 
 div.subdevision div.train div.fifth {
 	min-height       : 663px;
 	background-color : turquoise;	
 	float            : left;
+	background-image:url('images/slides/5.jpg');
+	background-position:35% 0%;
+	background-size:cover;
 }
 
 div.subdevision div.train div.sixth {
 	min-height       : 663px;
 	background-color : blue;
 	float            : left;	
+	background-image:url('images/slides/6.jpg');
+	background-position:50% 0%;
+	background-size:cover;
 }
-
