@@ -24,6 +24,7 @@ hgroup.site-title{
 	background-color: magenta;
 	min-height: 80px;
 	width:120px;
+	z-index: 2;
 }
 
 div.subdevision {
@@ -33,6 +34,15 @@ div.subdevision {
 
 div.subdevision div.train {
 	width : 6000px;
+}
+
+div.subdevision div.train > div {
+	position: relative;
+}
+
+div.subdevision div.train > div h3 {
+	position: absolute;
+	top:60%;
 }
 
 div.subdevision div.train div.first {
