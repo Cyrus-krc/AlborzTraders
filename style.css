@@ -38,7 +38,7 @@ div.op{
 	z-index: 1;
 	border-radius:3px;
 	background-color:#334;
-	opacity:0.6;
+	opacity:0.5;
 }
 hgroup.site-title{
 	position: absolute;
@@ -69,6 +69,7 @@ hgroup.site-title  h1.alborz{
 div.subdevision {
 	width    : 100%;
 	overflow : hidden;
+	background-color:#223;
 }
 
 div.subdevision div.train {
@@ -111,6 +112,7 @@ div.subdevision div.train div.second {
 	background-image:url('images/slides/2.jpg');
 	background-position:48% 10%;
 	background-size:cover;
+	opacity:.5;
 }
 
 div.subdevision div.train div.second h3.sub-title{
@@ -118,6 +120,12 @@ div.subdevision div.train div.second h3.sub-title{
 	height:60px;
 	background-image:url('images/logo/2.png');
 	background-color:transparent;
+	-webkit-transition:all 3s
+}
+
+div.subdevision div.train div.second:hover{
+	opacity:1;
+	-webkit-transition:all  3s;
 }
 
 div.subdevision div.train div.third {
@@ -127,6 +135,7 @@ div.subdevision div.train div.third {
 	background-image:url('images/slides/3.jpg');
 	background-position:70% 0%;
 	background-size:cover;
+	opacity:.5;
 }
 
 div.subdevision div.train div.third h3.sub-title{
@@ -136,6 +145,11 @@ div.subdevision div.train div.third h3.sub-title{
 	background-position:10% 50%;
 }
 
+div.subdevision div.train div.third:hover{
+	opacity:1;
+	-webkit-transition:all  3s;
+}
+
 div.subdevision div.train div.forth {
 	min-height       : 663px;
 	background-color : green;	
@@ -143,6 +157,7 @@ div.subdevision div.train div.forth {
 	background-image:url('images/slides/4.jpg');
 	background-position:35% 0%;
 	background-size:cover;
+	opacity:.5;
 }
 
 div.subdevision div.train div.forth h3.sub-title{
@@ -152,6 +167,11 @@ div.subdevision div.train div.forth h3.sub-title{
 	background-color:transparent;
 }
 
+div.subdevision div.train div.forth:hover{
+	opacity:1;
+	-webkit-transition:all  3s;
+}
+
 div.subdevision div.train div.fifth {
 	min-height       : 663px;
 	background-color : turquoise;	
@@ -159,6 +179,7 @@ div.subdevision div.train div.fifth {
 	background-image:url('images/slides/5.jpg');
 	background-position:35% 0%;
 	background-size:cover;
+	opacity:.5;
 }
 
 div.subdevision div.train div.fifth h3.sub-title{
@@ -168,6 +189,11 @@ div.subdevision div.train div.fifth h3.sub-title{
 	background-color:transparent;
 }
 
+div.subdevision div.train div.fifth:hover{
+	opacity:1;
+	-webkit-transition:all  3s;
+}
+
 div.subdevision div.train div.sixth {
 	min-height       : 663px;
 	background-color : blue;
@@ -175,6 +201,7 @@ div.subdevision div.train div.sixth {
 	background-image:url('images/slides/6.jpg');
 	background-position:0% 0%;
 	background-size:cover;
+	opacity:.5;
 }
 
 div.subdevision div.train div.sixth h3.sub-title{
@@ -182,4 +209,9 @@ div.subdevision div.train div.sixth h3.sub-title{
 	height:60px;
 	background-image:url('images/logo/6.png');
 	background-position:50% 30%;
+}
+
+div.subdevision div.train div.sixth:hover{
+	opacity:1;
+	-webkit-transition:all  3s;
 }
