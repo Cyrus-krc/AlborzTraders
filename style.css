@@ -69,7 +69,7 @@ hgroup.site-title  h1.alborz{
 div.subdevision {
 	width    : 100%;
 	overflow : hidden;
-	background-color:#223;
+	background-color:#000;
 }
 
 div.subdevision div.train {
@@ -80,19 +80,36 @@ div.subdevision div.train > div {
 	position: relative;
 }
 
+div.subdevision div.train > div div.backimg{
+	width: inherit;
+	min-height: inherit;
+	opacity: 0.3;
+	transition:opacity 1s;
+	-webkit-transition:opacity 1s;
+	-moz-transition:opacity 1s;
+	-ms-transition:opacity 1s;
+	-o-transition:opacity 1s;
+} 
+
+div.subdevision div.train > div div.backimg:hover{
+	opacity: 1;
+}
+
 div.subdevision div.train > div h3 {
 	position: absolute;
 	top:60%;
 }
 
-div.subdevision div.train > div,div.subdevision div.train > div h3{
+div.subdevision div.train > div div.backimg,div.subdevision div.train > div h3{
 	background-repeat : no-repeat;	
 }
 
 div.subdevision div.train div.first {
 	min-height       : 663px;
-	background-color : red;
 	float            : left;
+}
+
+div.subdevision div.train div.first div.backimg{
 	background-image:url('images/slides/1.jpg');
 	background-position:25% 40%;
 	background-size:cover;
@@ -107,12 +124,13 @@ div.subdevision div.train div.first h3.sub-title{
 
 div.subdevision div.train div.second {
 	min-height       : 663px;
-	background-color : orange;
 	float            : left;
-	background-image:url('images/slides/2.jpg');
+}
+
+div.subdevision div.train div.second div.backimg{
+	background-image: url('images/slides/2.jpg');
 	background-position:48% 10%;
 	background-size:cover;
-	opacity:.5;
 }
 
 div.subdevision div.train div.second h3.sub-title{
@@ -123,19 +141,15 @@ div.subdevision div.train div.second h3.sub-title{
 	-webkit-transition:all 3s
 }
 
-div.subdevision div.train div.second:hover{
-	opacity:1;
-	-webkit-transition:all  3s;
-}
-
 div.subdevision div.train div.third {
 	min-height       : 663px;
-	background-color : yellow;
 	float            : left;
+}
+
+div.subdevision div.train div.third div.backimg{
 	background-image:url('images/slides/3.jpg');
 	background-position:70% 0%;
 	background-size:cover;
-	opacity:.5;
 }
 
 div.subdevision div.train div.third h3.sub-title{
@@ -145,19 +159,16 @@ div.subdevision div.train div.third h3.sub-title{
 	background-position:10% 50%;
 }
 
-div.subdevision div.train div.third:hover{
-	opacity:1;
-	-webkit-transition:all  3s;
-}
 
 div.subdevision div.train div.forth {
 	min-height       : 663px;
-	background-color : green;	
 	float            : left;	
+}
+
+div.subdevision div.train div.forth div.backimg{
 	background-image:url('images/slides/4.jpg');
 	background-position:35% 0%;
 	background-size:cover;
-	opacity:.5;
 }
 
 div.subdevision div.train div.forth h3.sub-title{
@@ -167,19 +178,16 @@ div.subdevision div.train div.forth h3.sub-title{
 	background-color:transparent;
 }
 
-div.subdevision div.train div.forth:hover{
-	opacity:1;
-	-webkit-transition:all  3s;
-}
 
 div.subdevision div.train div.fifth {
 	min-height       : 663px;
-	background-color : turquoise;	
 	float            : left;
+}
+
+div.subdevision div.train div.fifth div.backimg {
 	background-image:url('images/slides/5.jpg');
 	background-position:35% 0%;
 	background-size:cover;
-	opacity:.5;
 }
 
 div.subdevision div.train div.fifth h3.sub-title{
@@ -189,19 +197,9 @@ div.subdevision div.train div.fifth h3.sub-title{
 	background-color:transparent;
 }
 
-div.subdevision div.train div.fifth:hover{
-	opacity:1;
-	-webkit-transition:all  3s;
-}
-
 div.subdevision div.train div.sixth {
 	min-height       : 663px;
-	background-color : blue;
 	float            : left;	
-	background-image:url('images/slides/6.jpg');
-	background-position:0% 0%;
-	background-size:cover;
-	opacity:.5;
 }
 
 div.subdevision div.train div.sixth h3.sub-title{
@@ -211,7 +209,8 @@ div.subdevision div.train div.sixth h3.sub-title{
 	background-position:50% 30%;
 }
 
-div.subdevision div.train div.sixth:hover{
-	opacity:1;
-	-webkit-transition:all  3s;
+div.subdevision div.train div.sixth div.backimg {
+	background-image:url('images/slides/6.jpg');
+	background-position:0% 0%;
+	background-size:cover;
 }
