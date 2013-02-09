@@ -126,11 +126,43 @@ div.subdevision div.train > div div.backimg,div.subdevision div.train > div h3{
 	background-repeat : no-repeat;	
 }
 
+
 div.subdevision div.train div.first {
 	min-height       : 663px;
 	float            : left;
 }
 
+/***** logos and text in slides *******/
+div.subdevision div.train div.main-logo:hover div.sub-name{
+	background-color:rgba(220,170,170,.1);
+	-webkit-transition:all 1s;
+}
+
+div.subdevision div.train div.main-logo{
+	border:1px white solid;
+	position:absolute;
+	z-index:3;
+	width:150px;
+	height:200px;	
+	top:350px;
+	background-color:rgba(190,150,150,.2);
+	border:rgba(190,150,150,.4) 1px solid;
+	border-radius:3px;
+}
+
+div.subdevision div.train  div.sub-name{
+	margin-top:150px;
+	position:absolute;
+	font-family   : 'jura', Arial, sans-serif;
+	font-weight:bold;
+	font-size:18px;
+	width:150px;
+	height:48px;
+	text-align:center;
+	border-radius:3px;
+}
+
+/***** First Slide ********/
 div.subdevision div.train div.first div.backimg{
 	background-image:url('images/slides/1.jpg');
 	background-position:25% 40%;
@@ -156,13 +188,14 @@ div.subdevision div.train div.first:hover div.backimg div.inside{
 
 div.subdevision div.train div.first h3.sub-title{
 	width:150px;
-	height:90px;
+	min-height:150px;
 	background-image:url('images/logo/1.png');
 	background-position:0% 50%;
-	position:absolute;
-	z-index:3;
+	top:0;
+	left:10px;
 }
 
+/***** second slide *******/
 div.subdevision div.train div.second {
 	min-height       : 663px;
 	float            : left;
@@ -179,9 +212,10 @@ div.subdevision div.train div.second h3.sub-title{
 	height:60px;
 	background-image:url('images/logo/2.png');
 	background-color:transparent;
-	-webkit-transition:all 3s
+	top:40px;
 }
 
+/***** Third Slide *******/
 div.subdevision div.train div.third {
 	min-height       : 663px;
 	float            : left;
@@ -198,9 +232,11 @@ div.subdevision div.train div.third h3.sub-title{
 	height:60px;
 	background-image:url('images/logo/3.png');
 	background-position:10% 50%;
+	top:35px;
+	left:35px;
 }
 
-
+/*******Forth Slide *******/
 div.subdevision div.train div.forth {
 	min-height       : 663px;
 	float            : left;	
@@ -217,9 +253,10 @@ div.subdevision div.train div.forth h3.sub-title{
 	height:60px;
 	background-image:url('images/logo/4.png');
 	background-color:transparent;
+	top:25px;
 }
 
-
+/****** Fifth Slide ********/
 div.subdevision div.train div.fifth {
 	min-height       : 663px;
 	float            : left;
@@ -236,18 +273,13 @@ div.subdevision div.train div.fifth h3.sub-title{
 	height:60px;
 	background-image:url('images/logo/5.png');
 	background-color:transparent;
+	top:25px;
 }
 
+/****** Sixth Slide ********/
 div.subdevision div.train div.sixth {
 	min-height       : 663px;
 	float            : left;	
-}
-
-div.subdevision div.train div.sixth h3.sub-title{
-	width:150px;
-	height:60px;
-	background-image:url('images/logo/6.png');
-	background-position:50% 30%;
 }
 
 div.subdevision div.train div.sixth div.backimg {
@@ -255,3 +287,13 @@ div.subdevision div.train div.sixth div.backimg {
 	background-position:20% 0%;
 	background-size:cover;
 }
+
+div.subdevision div.train div.sixth h3.sub-title{
+	width:150px;
+	height:60px;
+	background-image:url('images/logo/6.png');
+	background-position:50% 30%;
+	top:25px;
+}
+
+
