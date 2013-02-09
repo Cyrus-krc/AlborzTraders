@@ -124,6 +124,7 @@ div.subdevision div.train > div h3 {
 
 div.subdevision div.train > div div.backimg,div.subdevision div.train > div h3{
 	background-repeat : no-repeat;	
+ 	-webkit-filter:grayscale(15%);
 }
 
 
